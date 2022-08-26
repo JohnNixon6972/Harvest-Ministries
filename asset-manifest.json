@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Harvest-Ministries/static/css/main.df103216.chunk.css",
+    "main.js": "/Harvest-Ministries/static/js/main.d6e9f323.chunk.js",
+    "main.js.map": "/Harvest-Ministries/static/js/main.d6e9f323.chunk.js.map",
+    "runtime-main.js": "/Harvest-Ministries/static/js/runtime-main.e9fc7da5.js",
+    "runtime-main.js.map": "/Harvest-Ministries/static/js/runtime-main.e9fc7da5.js.map",
+    "static/js/2.dacaa924.chunk.js": "/Harvest-Ministries/static/js/2.dacaa924.chunk.js",
+    "static/js/2.dacaa924.chunk.js.map": "/Harvest-Ministries/static/js/2.dacaa924.chunk.js.map",
+    "index.html": "/Harvest-Ministries/index.html",
+    "static/css/main.df103216.chunk.css.map": "/Harvest-Ministries/static/css/main.df103216.chunk.css.map",
+    "static/js/2.dacaa924.chunk.js.LICENSE.txt": "/Harvest-Ministries/static/js/2.dacaa924.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9fc7da5.js",
+    "static/js/2.dacaa924.chunk.js",
+    "static/css/main.df103216.chunk.css",
+    "static/js/main.d6e9f323.chunk.js"
+  ]
+}
