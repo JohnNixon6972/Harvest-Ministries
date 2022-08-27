@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Topbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/posts">
           <Homepage />
         </Route>
         <Route path="/posts">
