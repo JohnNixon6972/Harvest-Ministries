@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Harvest-Ministries/static/css/main.d37992ff.css",
-    "main.js": "/Harvest-Ministries/static/js/main.91038e15.js",
+    "main.js": "/Harvest-Ministries/static/js/main.20ca7ffb.js",
     "index.html": "/Harvest-Ministries/index.html",
     "main.d37992ff.css.map": "/Harvest-Ministries/static/css/main.d37992ff.css.map",
-    "main.91038e15.js.map": "/Harvest-Ministries/static/js/main.91038e15.js.map"
+    "main.20ca7ffb.js.map": "/Harvest-Ministries/static/js/main.20ca7ffb.js.map"
   },
   "entrypoints": [
     "static/css/main.d37992ff.css",
-    "static/js/main.91038e15.js"
+    "static/js/main.20ca7ffb.js"
   ]
 }
