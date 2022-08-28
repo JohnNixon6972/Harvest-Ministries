@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/Harvest-Ministries/static/css/main.d37992ff.css",
-    "main.js": "/Harvest-Ministries/static/js/main.ab180829.js",
+    "main.css": "/Harvest-Ministries/static/css/main.40e5e386.chunk.css",
+    "main.js": "/Harvest-Ministries/static/js/main.6f7f2c28.chunk.js",
+    "main.js.map": "/Harvest-Ministries/static/js/main.6f7f2c28.chunk.js.map",
+    "runtime-main.js": "/Harvest-Ministries/static/js/runtime-main.e9fc7da5.js",
+    "runtime-main.js.map": "/Harvest-Ministries/static/js/runtime-main.e9fc7da5.js.map",
+    "static/js/2.2be7b1b6.chunk.js": "/Harvest-Ministries/static/js/2.2be7b1b6.chunk.js",
+    "static/js/2.2be7b1b6.chunk.js.map": "/Harvest-Ministries/static/js/2.2be7b1b6.chunk.js.map",
     "index.html": "/Harvest-Ministries/index.html",
-    "main.d37992ff.css.map": "/Harvest-Ministries/static/css/main.d37992ff.css.map",
-    "main.ab180829.js.map": "/Harvest-Ministries/static/js/main.ab180829.js.map"
+    "static/css/main.40e5e386.chunk.css.map": "/Harvest-Ministries/static/css/main.40e5e386.chunk.css.map",
+    "static/js/2.2be7b1b6.chunk.js.LICENSE.txt": "/Harvest-Ministries/static/js/2.2be7b1b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.d37992ff.css",
-    "static/js/main.ab180829.js"
+    "static/js/runtime-main.e9fc7da5.js",
+    "static/js/2.2be7b1b6.chunk.js",
+    "static/css/main.40e5e386.chunk.css",
+    "static/js/main.6f7f2c28.chunk.js"
   ]
 }
