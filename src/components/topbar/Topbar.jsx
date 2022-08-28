@@ -5,8 +5,7 @@ import "./topbar.css";
 
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
-  // const PF = "https://git.heroku.com/harvest-ministries-backend.git/images/"
-  const PF = ""
+  const PF = "http://localhost:5000/images/"
 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
@@ -65,6 +64,7 @@ export default function TopBar() {
             </li>
           </ul>
         )}
+        <i className="topSearchIcon fas fa-search"></i>
       </div>
     </div>
   );
