@@ -9,7 +9,6 @@ export default function SinglePost() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
-  const PF = "https://harvest-ministries-backend.herokuapp.com/images/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
@@ -30,7 +29,7 @@ export default function SinglePost() {
       await axios.delete(`/posts/${post._id}`, {
         data: { username: user.username },
       });
-      window.location.replace("/");
+      window.location.replace("/Harvest-Ministries");
     } catch (err) {}
   };
 
@@ -49,7 +48,7 @@ export default function SinglePost() {
     <div className="singlePost">
       <div className="singlePostWrapper">
         {post.photo && (
-          <img src={PF + post.photo} alt="" className="singlePostImg" />
+          <img src={post.photo} alt="" className="singlePostImg" />
         )}
         {updateMode ? (
           <input

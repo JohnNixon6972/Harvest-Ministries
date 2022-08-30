@@ -2,12 +2,16 @@ import { useContext, useState } from "react";
 import "./write.css";
 import axios from "../../axios";
 import { Context } from "../../context/Context";
+import {ref,getDownloadURL, uploadBytes} from 'firebase/storage'
+import storage from "../../firebase";
 
-export default function Write() {
+export default function Write({handleInputState}) {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [file, setFile] = useState(null);
   const { user } = useContext(Context);
+
+ 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,14 +21,28 @@ export default function Write() {
       desc,
     };
     if (file) {
-      const data =new FormData();
-      const filename = Date.now() + file.name;
-      data.append("name", filename);
-      data.append("file", file);
-      newPost.photo = filename;
-      try {
-        await axios.post("/upload", data);
-      } catch (err) {}
+      // const data =new FormData();
+      // const filename = Date.now() + file.name;
+      // data.append("name", filename);
+      // data.append("file", file);
+      // newPost.photo = filename;
+      // try {
+        //   await axios.post("/upload", data);
+        // } catch (err) {}
+      try{
+        const filename = Date.now() + file.name;
+        const imgref = ref(storage,`images/${filename}`);
+      await  uploadBytes(imgref,file).then(()=>{
+          alert("image uploaded");
+        });
+      await  getDownloadURL(ref(storage,`images/${filename}`)).then((url) =>{
+          newPost.photo = url;
+        })
+        
+      }
+      catch(err){
+        console.log(err);
+      }
     }
     try {
       const res = await axios.post("/posts", newPost);
