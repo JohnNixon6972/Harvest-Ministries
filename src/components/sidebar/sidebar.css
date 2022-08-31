@@ -1,4 +1,5 @@
 .sidebar {
+  height: 630px;
   flex: 3;
   margin: 20px;
   padding-bottom: 30px;

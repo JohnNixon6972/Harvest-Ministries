@@ -1,3 +1,17 @@
 .home{
     display: flex;
 }
+.events{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.hr{
+    border: dotted #999 6px;
+    border-bottom: none;
+    width: 40%;
+    margin: 15px auto 20px;
+}

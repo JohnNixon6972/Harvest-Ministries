@@ -1,5 +1,6 @@
 .header {
   /* margin-top: 60px; */
+  background-color: #f5f4f4;
 }
 
 .headerTitles {
@@ -12,14 +13,14 @@
 
 .headerTitleSm {
   position: absolute;
-  top: 14%;
-  font-size: 2.5rem;
+  top: 80px;
+  font-size: 3rem;
 }
 
 .headerTitleLg {
   position: absolute;
-  top: 18%;
-  font-size: 5rem;
+  top: 120px;
+  font-size: 5.5rem;
 }
 
 .headerImg{

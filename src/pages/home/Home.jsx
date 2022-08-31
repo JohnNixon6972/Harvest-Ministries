@@ -20,7 +20,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="home">
+        <h1 className="events">E V E N T S</h1>
+        <hr className="hr"/>
+        <div className="home">
         <Posts posts={posts} />
         <Sidebar />
       </div>
