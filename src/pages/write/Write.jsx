@@ -21,14 +21,7 @@ export default function Write({handleInputState}) {
       desc,
     };
     if (file) {
-      // const data =new FormData();
-      // const filename = Date.now() + file.name;
-      // data.append("name", filename);
-      // data.append("file", file);
-      // newPost.photo = filename;
-      // try {
-        //   await axios.post("/upload", data);
-        // } catch (err) {}
+   
       try{
         const filename = Date.now() + file.name;
         const imgref = ref(storage,`images/${filename}`);

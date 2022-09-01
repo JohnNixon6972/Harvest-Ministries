@@ -2,7 +2,9 @@ import "./settings.css";
 import Sidebar from "../../components/sidebar/Sidebar";
 import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
-import axios from "axios";
+import axios from "../../axios";
+import {ref,getDownloadURL, uploadBytes} from 'firebase/storage'
+import storage from "../../firebase";
 
 export default function Settings() {
   const [file, setFile] = useState(null);
@@ -24,14 +26,24 @@ export default function Settings() {
       password,
     };
     if (file) {
-      const data = new FormData();
-      const filename = Date.now() + file.name;
-      data.append("name", filename);
-      data.append("file", file);
-      updatedUser.profilePic = filename;
-      try {
-        await axios.post("/upload", data);
-      } catch (err) {}
+      try{
+        const filename = Date.now() + file.name;
+        const imgref = ref(storage,`images/${filename}`);
+      await  uploadBytes(imgref,file).then(()=>{
+          alert("image uploaded");
+        });
+      await  getDownloadURL(ref(storage,`images/${filename}`)).then((url) =>{
+        updatedUser.profilePic = url;
+        })
+        
+      }
+      catch(err){
+        console.log(err);
+      }
+      // updatedUser.profilePic = filename;
+      // try {
+      //   await axios.post("/upload", data);
+      // } catch (err) {}
     }
     try {
       const res = await axios.put("/users/" + user._id, updatedUser);
