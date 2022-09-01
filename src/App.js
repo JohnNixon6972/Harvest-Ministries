@@ -9,6 +9,7 @@ import Footer from "./components/footer/footer.jsx"
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
+import AboutUs from "./pages/aboutus/AboutUs";
 
 function App() {
   const { user } = useContext(Context);
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/Harvest-Ministries">
           <Home />
         </Route>
+        <Route path="/aboutus"><AboutUs/></Route>
         <Route path="/register">{user ? <Home /> : <Register />}</Route>
         <Route path="/login">{user ? <Home /> : <Login />}</Route>
         <Route path="/write">{user ? <Write /> : <Register />}</Route>
