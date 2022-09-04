@@ -12,7 +12,10 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
+        
         <i className="topIcon fab fa-facebook-square"></i>
+       
+       
         <i className="topIcon fab fa-twitter-square"></i>
         <i className="topIcon fab fa-pinterest-square"></i>
         <i className="topIcon fab fa-instagram-square"></i>
@@ -39,8 +42,8 @@ export default function TopBar() {
               WRITE
             </Link>
           </li>
-          <li className="topListItem" onClick={handleLogout}>
-            {user && "LOGOUT"}
+          <li className="topListItem1" onClick={handleLogout}>
+            <span className="logout"> {user && "LOGOUT"}</span>
           </li>
         </ul>
       </div>

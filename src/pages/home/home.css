@@ -1,11 +1,35 @@
-.home{
+@media(max-width:500px){
+    .home{
+        display: block;
+    }
+    .events{
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    
+    .hr{
+        border: dotted #999 6px;
+        border-bottom: none;
+        width: 40%;
+        margin: 15px auto 20px;
+    }
+/* .sidebar1{
+    display: block;
+    width:10px;
+    background-color: rgb(0, 0, 0);
+} */
+
+}.home{
     display: flex;
 }
 .events{
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
 

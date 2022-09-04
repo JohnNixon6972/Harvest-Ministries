@@ -44,12 +44,15 @@ export default function Write({handleInputState}) {
   };
   return (
     <div className="write">
+      
       {file && (
         <img className="writeImg" src={URL.createObjectURL(file)} alt="" />
       )}
+     
+      
       <form className="writeForm" onSubmit={handleSubmit}>
-        <div className="writeFormGroup">
-          <label htmlFor="fileInput">
+        <div className="writeFormGroup1">
+          <label htmlFor="fileInput" >
             <i className="writeIcon fas fa-plus"></i>
           </label>
           <input
@@ -58,6 +61,8 @@ export default function Write({handleInputState}) {
             style={{ display: "none" }}
             onChange={(e) => setFile(e.target.files[0])}
           />
+          </div>
+          <div className="writeFormGroup2">
           <input
             type="text"
             placeholder="Title"
@@ -66,7 +71,7 @@ export default function Write({handleInputState}) {
             onChange={e=>setTitle(e.target.value)}
           />
         </div>
-        <div className="writeFormGroup">
+        <div className="writeFormGroup3">
           <textarea
             placeholder="Tell your story..."
             type="text"
@@ -74,9 +79,12 @@ export default function Write({handleInputState}) {
             onChange={e=>setDesc(e.target.value)}
           ></textarea>
         </div>
+        <div className="button">
         <button className="writeSubmit" type="submit">
           Publish
         </button>
+        </div>
+       
       </form>
     </div>
   );

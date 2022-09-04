@@ -1,3 +1,95 @@
+@media(max-width:600px){
+  .top {
+    width: 100%;
+    height: 50px;
+    background-color: #f1eded;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+  }
+  
+  .topLeft,
+  .topRight {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+  }
+  .icon1{
+    font-size: small;
+  }
+  .topCenter {
+    flex: 6;
+    margin-left: -75px;
+  }
+  
+  .topIcon {
+    font-size: 10px;
+    margin-right: 2px;
+    color: #444;
+    cursor: pointer;
+    display: none;
+  }
+ 
+  .topImg {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  /* .link1{
+    margin-left: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+  } */
+  .link{
+    font-size: 12px;
+    
+    /* margin-right: 3px; */
+  }
+  .topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .topListItem {
+    margin-right: 8px;
+    font-size: 10px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  .topListItem1 {
+    margin-right: 4px;
+    font-size: 5px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .logout{
+    font-size: 12px;
+    margin-right: -36px;
+  }
+  
+}
+
+
+
 .top {
   width: 100%;
   height: 50px;
@@ -47,6 +139,12 @@
 
 .topListItem {
   margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topListItem1 {
+  margin-right: 12px;
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;

@@ -1,6 +1,16 @@
+@media screen and(max-width:500px){
+    .posts{
+        flex: 5;
+        margin-left: -200px;
+        margin: 7px;
+        width:100px;
+}
+}
 .posts{
     flex: 9;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 0px;
+    width:150px;
+    /* margin-left: -8px; */
 }
