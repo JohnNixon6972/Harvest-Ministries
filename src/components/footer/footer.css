@@ -1,9 +1,9 @@
 @media screen and (max-width:500px){
     #footer{
-        padding: 3.5% 10%;
         text-align: center;
         /* background-color: #66BFBF; */
         background-color: #f1eded;
+        padding: 5% 0%;
     }
     .social-icon{
         margin: 10px 50px;
@@ -12,8 +12,7 @@
 
 @media screen and (min-width:400px){
     #footer{
-        padding: 4% 10%;
-        /* width:100%; */
+        /* padding: 4% 10%; */
         text-align: center;
         /* background-color: #66BFBF; */
         background-color: #f1eded;
@@ -24,9 +23,10 @@
 }
 
 
-    #footer{
-    padding: 3% 10%;
+#footer{
+    width:100%;
     text-align: center;
+    padding: 5% 0%;
     /* background-color: #66BFBF; */
     background-color: #f1eded;
 }
