@@ -90,23 +90,25 @@
 } */
 
 
-@media screen and(max-width:500px){
+/* @media only screen and(max-width:768px){
   .write {
     padding-top: 50px;
     background-color: aqua;
-  
+    
+
   }
   .writeText {
     font-size: 20px;
-    /* height: 100vh; */
+    height: 100vh;
     height: 300px;
-  }
-}
+  } 
+}*/
 
 
 
 .write {
   padding-top: 50px;
+  padding-bottom: 200px;
   /* background-color: aqua; */
 
 }
@@ -169,7 +171,7 @@
 
 .writeText {
   font-size: 20px;
-  height: 25vh;
+  height: 20vh;
 }
 
 .writeSubmit {
