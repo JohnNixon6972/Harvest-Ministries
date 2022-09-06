@@ -18,10 +18,10 @@ export default function AboutUs() {
 						<a href="/Harvest-Ministries">Our Church Activities</a>
 					</div>
 				</div>
-				<div class="social">
-					<a href=""><i class="fab fa-facebook-f"></i></a>
-					<a href=""><i class="fab fa-twitter"></i></a>
-					<a href=""><i class="fab fa-instagram"></i></a>
+				<div class="social">	
+					<a href="https://www.facebook.com/profile.php?id=100081239378626" ><i className="social-icon fab fa-facebook"></i></a>
+      				<a href="https://instagram.com/_harvestchurch_?igshid=YmMyMTA2M2Y="><i className="social-icon fab fa-instagram"></i></a>
+      				<a href="https://youtube.com/channel/UCJ3JmUE6Z45rT7y_k-WL5dw"><i class="social-icon fab fa-youtube"></i></a>
 				</div>
 			</div>
 			<div class="image-section">
