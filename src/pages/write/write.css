@@ -90,22 +90,6 @@
 } */
 
 
-/* @media only screen and(max-width:768px){
-  .write {
-    padding-top: 50px;
-    background-color: aqua;
-    
-
-  }
-  .writeText {
-    font-size: 20px;
-    height: 100vh;
-    height: 300px;
-  } 
-}*/
-
-
-
 .write {
   padding-top: 50px;
   padding-bottom: 200px;
@@ -114,7 +98,7 @@
 }
 
 .writeImg {
-  margin-left: 150px;
+  margin: 10% 14%;
   width: 70vw;
   height: auto;
   border-radius: 10px;
@@ -128,11 +112,7 @@
   position: relative;
 }
 
-.writeFormGroup1 input {
-  margin-left: 120px;
-  /* display: flex; */
-  /* align-items: center; */
-}
+
 .writeFormGroup2 {
   margin-left: 20%;
   display: flex;
@@ -154,7 +134,7 @@
   font-size: 20px;
   color: rgb(121, 118, 118);
   cursor: pointer;
-  margin-left: 145px;
+  margin-left:25%;
   top:20px;
 }
 
