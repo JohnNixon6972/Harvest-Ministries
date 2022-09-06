@@ -79,11 +79,11 @@ export default function Write({handleInputState}) {
             onChange={e=>setDesc(e.target.value)}
           ></textarea>
         </div>
-        <div className="button">
+        {/* <div className="button"> */}
         <button className="writeSubmit" type="submit">
           Publish
         </button>
-        </div>
+        {/* </div> */}
        
       </form>
     </div>

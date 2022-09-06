@@ -96,7 +96,11 @@
     background-color: aqua;
   
   }
-
+  .writeText {
+    font-size: 20px;
+    /* height: 100vh; */
+    height: 300px;
+  }
 }
 
 
@@ -134,7 +138,7 @@
 }
 .writeFormGroup3 {
   margin-left: 160px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .writeIcon {
@@ -165,7 +169,7 @@
 
 .writeText {
   font-size: 20px;
-  height: 100vh;
+  height: 25vh;
 }
 
 .writeSubmit {
@@ -183,10 +187,10 @@
   width: 80px;
   margin-left: 170px;
 }
-.button{
+/* .button{
    height: 200px;
    background-color: black;
-   /* width: 100px; */
+   width: 100px;
    margin-bottom:200px;
    margin-top: -380px;
-}
+}*/
