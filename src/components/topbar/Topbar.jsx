@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./topbar.css";
+import logo from "../../images/logo.png"
 
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
@@ -46,11 +47,6 @@ export default function TopBar() {
         </ul>
       </div>
       <div className="topRight">
-        {user ? (
-          <Link to="/settings">
-            <img className="topImg" src={user.profilePic} alt="" />
-          </Link>
-        ) : (
           <ul className="topList">
             <li className="topListItem">
               <Link className="link" to="/login">
@@ -63,7 +59,9 @@ export default function TopBar() {
               </Link>
             </li>
           </ul>
-        )}
+          <Link to="/settings">
+            <img className="topImg" src={logo} alt="" />
+          </Link>
       </div>
     </div>
   );
