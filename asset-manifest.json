@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Harvest-Ministries/static/css/main.fa4542c6.chunk.css",
-    "main.js": "/Harvest-Ministries/static/js/main.4e77a837.chunk.js",
-    "main.js.map": "/Harvest-Ministries/static/js/main.4e77a837.chunk.js.map",
+    "main.css": "/Harvest-Ministries/static/css/main.52d52636.chunk.css",
+    "main.js": "/Harvest-Ministries/static/js/main.2caf913d.chunk.js",
+    "main.js.map": "/Harvest-Ministries/static/js/main.2caf913d.chunk.js.map",
     "runtime-main.js": "/Harvest-Ministries/static/js/runtime-main.7fa09b01.js",
     "runtime-main.js.map": "/Harvest-Ministries/static/js/runtime-main.7fa09b01.js.map",
-    "static/js/2.d9316a0d.chunk.js": "/Harvest-Ministries/static/js/2.d9316a0d.chunk.js",
-    "static/js/2.d9316a0d.chunk.js.map": "/Harvest-Ministries/static/js/2.d9316a0d.chunk.js.map",
+    "static/js/2.337601d0.chunk.js": "/Harvest-Ministries/static/js/2.337601d0.chunk.js",
+    "static/js/2.337601d0.chunk.js.map": "/Harvest-Ministries/static/js/2.337601d0.chunk.js.map",
     "index.html": "/Harvest-Ministries/index.html",
-    "static/css/main.fa4542c6.chunk.css.map": "/Harvest-Ministries/static/css/main.fa4542c6.chunk.css.map",
-    "static/js/2.d9316a0d.chunk.js.LICENSE.txt": "/Harvest-Ministries/static/js/2.d9316a0d.chunk.js.LICENSE.txt",
+    "static/css/main.52d52636.chunk.css.map": "/Harvest-Ministries/static/css/main.52d52636.chunk.css.map",
+    "static/js/2.337601d0.chunk.js.LICENSE.txt": "/Harvest-Ministries/static/js/2.337601d0.chunk.js.LICENSE.txt",
+    "static/media/about_pic.ceb950d2.jpg": "/Harvest-Ministries/static/media/about_pic.ceb950d2.jpg",
     "static/media/bg_img.d543b2ab.jpg": "/Harvest-Ministries/static/media/bg_img.d543b2ab.jpg",
     "static/media/logo.1cb950cb.png": "/Harvest-Ministries/static/media/logo.1cb950cb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7fa09b01.js",
-    "static/js/2.d9316a0d.chunk.js",
-    "static/css/main.fa4542c6.chunk.css",
-    "static/js/main.4e77a837.chunk.js"
+    "static/js/2.337601d0.chunk.js",
+    "static/css/main.52d52636.chunk.css",
+    "static/js/main.2caf913d.chunk.js"
   ]
 }
