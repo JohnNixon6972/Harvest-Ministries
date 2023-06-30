@@ -53,11 +53,11 @@ export default function TopBar() {
                 LOGIN
               </Link>
             </li>
-            <li className="topListItem">
+            {/* <li className="topListItem">
               <Link className="link" to="/register">
                 REGISTER
               </Link>
-            </li>
+            </li> */}
           </ul>
           <Link to="/settings">
             <img className="topImg" src={logo} alt="" />
