@@ -16,7 +16,7 @@ export default function TopBar() {
         
         <a href="https://www.facebook.com/profile.php?id=100081239378626" ><i className="topIcon fab fa-facebook-square"></i></a>
         <a href="https://instagram.com/_harvestchurch_?igshid=YmMyMTA2M2Y="><i className="topIcon fab fa-instagram-square"></i></a>
-        <a href="https://youtube.com/channel/UCJ3JmUE6Z45rT7y_k-WL5dw"><i class="topIcon fab fa-youtube-square"></i></a>
+        <a href="https://youtube.com/channel/UCJ3JmUE6Z45rT7y_k-WL5dw"><i className="topIcon fab fa-youtube-square"></i></a>
         
       </div>
       <div className="topCenter">
