@@ -38,7 +38,7 @@ export default function Write({handleInputState}) {
       }
     }
     try {
-      const res = await axios.post("/posts", newPost);
+      await axios.post("/posts", newPost);
       window.location.replace("/Harvest-Ministries");
     } catch (err) {}
   };
