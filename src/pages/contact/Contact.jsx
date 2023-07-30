@@ -6,24 +6,30 @@ export default function Contact() {
     <div class="container">
         <header>
             <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam totam iure vitae nesciunt quaerat sed, et ullam placeat ut? Impedit dolorem nostrum itaque molestias nemo delectus animi fuga illum magnam earum pariatur reiciendis, explicabo id velit facilis, necessitatibus cum! Magnam.</p>
+            <p>Thank you for visiting our church website. We are delighted to hear from you and welcome your inquiries, suggestions, or any feedback you may have. Please feel free to reach out to us through any of the following methods:</p>
         </header>
         <div class="content">
             <div class="content-form">
                 <section>
-                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                    <h2>address</h2>
+                    
+                    <h2><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> Address</h2>
                     <p>
-                        Lorem ipsum dolor sit. <br/>
-                        Lorem, ipsum dolor. <br/>
-                        lorem
+                        <h2>Sunday Serive 9:00am</h2>
+                    Gogte RangmandirJanata colony,<br/>
+                    Kallehol, Camp, Belagavi,<br/>
+                    Karnataka 590001, India
+                <br/>
+                <br/>
+                <h2>Church Land</h2>
+                Kallehol, Belagavi 591128, <br/>
+                Karnataka Kallehol Belagavi India
                     </p>
                 </section>
 
                 <section>
                     <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                     <h2>Phone</h2>
-                    <p>123-456-78901548</p>
+                    <p>+91 9611375677</p>
                 </section>
 
                 <section>
